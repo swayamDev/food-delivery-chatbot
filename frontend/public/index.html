@@ -1,0 +1,199 @@
+<!-- 
+  Developed by Swayam Swarup Panda for the A.R.T.I. (Annapurna’s Restaurant Talking Interface) project.
+  © 2025. All rights reserved. For educational and portfolio use only.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Annapurna - Authentic Indian Taste. Experience the best Indian cuisine in town with our wide variety of traditional dishes."
+    />
+    <title>Annapurna - Authentic Indian Taste</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container nav-container">
+        <a href="#" class="nav-logo">Annapurna</a>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+      <div class="header-content">
+        <h1 class="logo">Annapurna</h1>
+        <p class="tagline">Authentic Indian Taste</p>
+        <p class="welcome-text">
+          Experience the rich and diverse flavors of India in every bite. Our
+          recipes have been passed down through generations to bring you the
+          most authentic taste of Indian cuisine.
+        </p>
+        <a href="#menu" class="cta-button">Explore Our Menu</a>
+      </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="container">
+        <h2 class="section-title">Welcome to Annapurna</h2>
+        <p class="section-subtitle">
+          Named after the goddess of food and nourishment, Annapurna brings you
+          an authentic Indian dining experience. Our chefs prepare each dish
+          with love, using traditional recipes and the freshest ingredients.
+        </p>
+        <div class="cta-container">
+          <a href="#contact" class="cta-button">Visit Us Today</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="menu-header">
+          <h2 class="section-title">Our Menu</h2>
+          <p class="section-subtitle">
+            Discover our delicious range of authentic Indian dishes, prepared
+            with love and tradition.
+          </p>
+        </div>
+        <div class="menu-filters">
+          <button class="menu-filter active" data-filter="all">All</button>
+          <button class="menu-filter" data-filter="Main Course">
+            Main Course
+          </button>
+          <button class="menu-filter" data-filter="North Indian">
+            North Indian
+          </button>
+          <button class="menu-filter" data-filter="South Indian">
+            South Indian
+          </button>
+          <button class="menu-filter" data-filter="Breakfast">Breakfast</button>
+          <button class="menu-filter" data-filter="Snacks">Snacks</button>
+          <button class="menu-filter" data-filter="Beverage">Beverage</button>
+        </div>
+        <div class="menu-grid">
+          <!-- Menu Items will be dynamically added here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section (replacing ARTI Section) -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+        <h2 class="section-title about-title">About Annapurna</h2>
+        <p class="about-description">
+          At Annapurna, we are dedicated to bringing the authentic flavors of
+          India to your table. Our chefs are masters of their craft, trained in
+          traditional cooking techniques.
+        </p>
+        <div class="about-features">
+          <div class="about-feature">
+            <i class="fas fa-utensils"></i>
+            <h4>Quality Ingredients</h4>
+            <p>
+              We use only the freshest, highest quality ingredients in all our
+              dishes.
+            </p>
+          </div>
+          <div class="about-feature">
+            <i class="fas fa-award"></i>
+            <h4>Award Winning</h4>
+            <p>
+              Our restaurant has received multiple awards for authentic Indian
+              cuisine.
+            </p>
+          </div>
+          <div class="about-feature">
+            <i class="fas fa-history"></i>
+            <h4>Family Tradition</h4>
+            <p>
+              Family owned and operated with recipes passed down through
+              generations.
+            </p>
+          </div>
+        </div>
+        <a href="#contact" class="cta-button">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Annapurna</h3>
+            <p>
+              Experience the authentic flavors of India in a warm and welcoming
+              environment.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+            <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Food Street, Cuisine
+              City
+            </p>
+            <p><i class="fas fa-phone"></i> +91 1234567890</p>
+            <p><i class="fas fa-envelope"></i> info@annapurna.com</p>
+            <a
+              href="https://maps.google.com"
+              target="_blank"
+              class="cta-button"
+              style="display: inline-block; margin-top: 15px"
+              >Find on Google Maps</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Annapurna. All rights reserved. | Designed with ❤️</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/app.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="ARTI"
+      agent-id="7bd24eca-ee53-4f5e-9caa-d0dd93527a75"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>
+
+<!-- 
+  Developed by Swayam Swarup Panda for the A.R.T.I. (Annapurna’s Restaurant Talking Interface) project.
+  © 2025. All rights reserved. For educational and portfolio use only.
+-->
